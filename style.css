@@ -1,0 +1,78 @@
+html, #page { padding:0; margin:0;}
+body { margin:0; padding:0; width:100%; height: 100vh; color:#959595; font:normal 12px/2.0em Sans-Serif;} 
+h1, h2, h3, h4, h5, h6 {color:darkorange;}
+#page { 
+    background:#eee;
+    display: flex;
+    width:100%;
+    height: 100%;
+}
+#profile{
+padding-top: 100px;padding-bottom: 100px; padding-left: 50px;
+}
+#widgets{
+padding-bottom: 100px; padding-left: 10px;
+    }
+    #product{
+        padding-bottom: 100px; padding-left: 50px;
+            }
+#left{ width:25%;}
+#right{width: 75%;}
+#header, #footer, #top-nav, #content, #content #contentbar, #content #sidebar { margin:0; padding:0;}
+      
+/* Logo */
+#logo { padding:10px; width:auto; float:left;}
+#logo h1 a, h1 a:hover { color:rgb(26, 24, 23); text-decoration:none;}
+#logo h1 span { color:#f9ebdb;}
+
+/* Header */
+#header { background:#eee; }
+#header-inner { margin:0; padding:10px; width:970px;background:rgb(255, 255, 255);}
+
+/* Feature */
+.feature { background:#eee;padding:0;}
+.feature-inner { margin:auto;padding:10px;width:970px;background:orange; }
+.feature-inner h1 {color:#f9ebdb;font-size:32px;}
+
+/* Menu */
+#top-nav { margin:0 auto; padding:0px 0 0; height:37px; float:right;}
+#top-nav ul { list-style:none; padding:0; height:37px; float:left;}
+#top-nav ul li { margin:0; padding:0 0 0 8px; float:left;}
+#top-nav ul li a { display:block; margin:0; padding:8px 20px; color:rgb(14, 13, 13); text-decoration:none;}
+#top-nav ul li.active a, #top-nav ul li a:hover { color:#f9ebdb;}
+
+/* Content */
+#content-inner { margin:0; display: flex; padding:10px; width:970px;background:#fff;}
+#harry{padding-left: 20px;padding-right: 20px;}
+#TA{padding-left: 20px;padding-right: 20px;}
+#father{padding-left: 20px;padding-right: 20px;}
+#content #contentbar { margin:0; padding:0; float:right; width:760px;}
+#content #sidebar { padding:0; float:left; width:200px;}
+#content #sidebar #widgets { margin:0 0 12px; padding:8px 8px 8px 13px;line-height:1.4em;}
+#widgets h3 a { text-decoration:none;}
+#widgets ul { margin:0; padding:0; list-style:none; color:#959595;padding-bottom: 100px; padding-left: 50px;}
+#widgets ul li { margin:0;}
+ #widgets ul li { padding:4px 0; width:185px;}
+#widgets ul li a { color:rgb(24, 23, 21); text-decoration:none; margin-left:-16px; padding:4px 8px 4px 16px;}
+#content #sidebar .widget ul li a:hover { color:#f9ebdb; font-weight:bold; text-decoration:none;}
+#row{display: flex;}
+#book{display: flex; padding: auto; padding-right: 50px;}
+#glasshotel{padding-left: 20px;padding-right: 20px;}
+#longings{padding-left: 20px;padding-right: 20px;}
+#rosegold{padding-left: 20px;padding-right: 20px;}
+#vanessa{padding-left: 20px;padding-right: 20px;}
+#weather{padding-left: 20px;padding-right: 20px;}
+button{border-style: none;}
+h3{color: black;}
+/* Footerblurb */
+#footerblurb { background:#eee;color:orange;}
+#footerblurb-inner { margin:0 auto; width:970px; padding:10px;background:#f9ebdb;border-bottom-right-radius:15px;border-bottom-left-radius:15px;}
+#footerblurb .column { margin:0; text-align:justify; float:left;width:250px;padding:0 24px;}
+
+/* Footer */
+#footer { background:#eee;}
+#footer-inner { margin:auto; text-align:center; padding:12px; width:970px;}
+#footer a {color:orange;text-decoration:none;}
+
+/* Clear both sides to assist with div alignment  */
+.clr { clear:both; padding:0; margin:0; width:100%; font-size:0px; line-height:0px;}
